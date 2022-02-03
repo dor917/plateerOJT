@@ -32,8 +32,8 @@ git
 AWS
 오라클EE
 ```
-
-## Method Naming Rules
+## Java Code Conventions
+### Method Naming Rule
 기능|메소드
 ---|---|
 등록|insert테이블명|
@@ -41,3 +41,5 @@ AWS
 삭제|delete테이블명|
 상세 조회|get테이블명 or select테이블명|
 목록 검색|get테이블명List or select테이블명List|
+
+## Variable Naming Rule
