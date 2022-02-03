@@ -9,7 +9,7 @@
 2022-02-07 ~ 미정
 ```
 
-## 예정
+## 환경, 개발 기능 예정
 ### 기능
 ```
 회원가입(작가, 회원)(SNS 로그인)(스프링 시큐리티)
@@ -42,4 +42,5 @@ AWS
 상세 조회|get테이블명 or select테이블명|
 목록 검색|get테이블명List or select테이블명List|
 
-## Variable Naming Rule
+### Variable Naming Rule
+미정
