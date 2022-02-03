@@ -33,4 +33,11 @@ AWS
 오라클EE
 ```
 
-
+## Method Naming Rules
+기능|메소드
+---|---|
+등록|insert테이블명|
+수정|update테이블명|
+삭제|delete테이블명|
+상세 조회|get테이블명 or select테이블명|
+목록 검색|get테이블명List or select테이블명List|
