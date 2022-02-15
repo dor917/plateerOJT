@@ -1,12 +1,9 @@
 package com.hotel.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
-@Table(name = "rooms")
+@Table(name = "Rooms")
 public class Rooms {
     @Id
     @Column

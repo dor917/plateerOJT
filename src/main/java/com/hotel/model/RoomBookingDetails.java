@@ -34,11 +34,11 @@ public class RoomBookingDetails {
     @Column
     private String room_type;
     @Column
-    private Date check_in_date;
+    private String check_in_date;
     @Column
     private String check_in_time;
     @Column
-    private Date check_out_date;
+    private String check_out_date;
     @Column
     private String occupancy;
 
@@ -122,11 +122,11 @@ public class RoomBookingDetails {
         this.room_type = room_type;
     }
 
-    public Date getCheck_in_date() {
+    public String getCheck_in_date() {
         return check_in_date;
     }
 
-    public void setCheck_in_date(Date check_in_date) {
+    public void setCheck_in_date(String check_in_date) {
         this.check_in_date = check_in_date;
     }
 
@@ -138,11 +138,11 @@ public class RoomBookingDetails {
         this.check_in_time = check_in_time;
     }
 
-    public Date getCheck_out_date() {
+    public String getCheck_out_date() {
         return check_out_date;
     }
 
-    public void setCheck_out_date(Date check_out_date) {
+    public void setCheck_out_date(String check_out_date) {
         this.check_out_date = check_out_date;
     }
 
