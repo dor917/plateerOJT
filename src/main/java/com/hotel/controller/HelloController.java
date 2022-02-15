@@ -24,8 +24,8 @@ public class HelloController {
 //        return mav;
 //    }
 
-    @RequestMapping(value="/", method = RequestMethod.GET)
-    public String index2() {
-        return "adminPage/reserve_page";
-    }
+//    @RequestMapping(value="/", method = RequestMethod.GET)
+//    public String index2() {
+//        return "adminPage/reserve_page";
+//    }
 }
