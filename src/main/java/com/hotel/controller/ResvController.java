@@ -32,4 +32,11 @@ public class ResvController {
         mav.setViewName("entity/search");
         return mav;
     }
+
+    @GetMapping("detail")
+    public ModelAndView detail() {
+        ModelAndView mav = new ModelAndView();
+        mav.setViewName("entity/detail");
+        return mav;
+    }
 }
