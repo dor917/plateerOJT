@@ -9,7 +9,7 @@
 2022-02-14 ~ 미정
 ```
 
-## 환경, 개발 기능 예정
+## 개발 기능, 환경, IDE
 ### 기능
 ```
 1. 관리자 페이지 – 예약 관리(확정, 취소 => 결제 api //예약 확정 후에는 취소가 불가능, 호텔에 직접 문의) - (신승용, 오수빈)
@@ -29,7 +29,11 @@ git hub, slack
 ```
 ### 환경
 ```
-Spring boot, Maria DB, IntelliJ, JPA
+Spring boot, Maria DB, JPA, Angular
+```
+### IDE
+```
+VS Code, IntelliJ
 ```
 ## Java Code Conventions
 ### Method Naming Rule
