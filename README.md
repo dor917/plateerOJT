@@ -20,11 +20,11 @@
 ```
 ### 협업
 ```
-git
+git hub, slack
 ```
 ### 환경
 ```
-
+Spring boot, Maria DB, IntelliJ, JPA
 ```
 ## Java Code Conventions
 ### Method Naming Rule
