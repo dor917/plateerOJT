@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class AdminLoginController {
 
     @Autowired
-    AdminLoginRepository adminLoginRepository;
+    AdminLoginService loginService;
 
     @RequestMapping(value="/admin/login", method = RequestMethod.GET)
     public String loginForm(){
@@ -21,13 +21,8 @@ public class AdminLoginController {
 
     @PostMapping("/admin/perform_login")
     public String login(Admin admin) {
-        Admin verifiedAdmin = adminLoginRepository.findByNameContaining(admin.getUsername());
+        return loginService.login(admin)?
+                "adminPage/reserve_page":"redirect:/admin/login";
 
-        // success
-        if(verifiedAdmin != null &&
-                verifiedAdmin.getPassword().equals(admin.getPassword())) {
-            return "adminPage/reserve_page";
-        };
-        return "redirect:/admin/login";
     }
 }
